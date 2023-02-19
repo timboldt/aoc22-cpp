@@ -7,7 +7,7 @@
 
 #include "thirdparty/abseil-cpp/absl/strings/str_split.h"
 
-const std::string INPUT_FILE = "../input/01.txt";
+const std::string INPUT_FILE = "../input/02.txt";
 
 std::vector<int> parse(const std::string &input) {
     const std::vector<std::string> lines = absl::StrSplit(input, "\n");
