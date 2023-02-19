@@ -6,6 +6,7 @@ enable_testing()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(ABSL_PROPAGATE_CXX_STD on)
 
 add_subdirectory(thirdparty/abseil-cpp)
 
