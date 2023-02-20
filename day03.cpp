@@ -29,7 +29,6 @@ std::vector<Part2Tuple> parse_part2(const std::string &input) {
     const std::vector<std::string> lines = absl::StrSplit(input, "\n");
     std::vector<Part2Tuple> output;
     std::vector<std::string> chunk;
-    size_t offset = 0;
     for (auto &&line : lines) {
         if (!line.empty()) {
             chunk.push_back(line);
