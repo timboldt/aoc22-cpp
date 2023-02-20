@@ -16,6 +16,9 @@ target_link_libraries(aoc22_01 absl::strings)
 add_executable(aoc22_02 day02.cpp)
 target_link_libraries(aoc22_02 absl::strings)
 
+add_executable(aoc22_03 day03.cpp)
+target_link_libraries(aoc22_03 absl::btree absl::strings)
+
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
